@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-   "target": "es2018",
+ "target": "es2018",
     "module": "CommonJS",
     "experimentalDecorators": true,
     "allowJs": false,
@@ -18,5 +18,5 @@
 
   },
   "include": ["./src/**/*.ts"],
-  "exclude": ["node_modules", "src/Tests/*"]
+  "exclude": ["node_modules", "src/Tests/*", "src/Binary/GenerateStatics.ts"]
 }
